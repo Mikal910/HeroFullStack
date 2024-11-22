@@ -14,7 +14,7 @@ let cookieParser = require('cookie-parser');
 let session      = require('express-session');
 let configDB = require('./config/database.js');
 let db
-
+/
 // configuration ===============================================================
 mongoose.connect(configDB.url, (err, database) => {
   if (err) return console.log(err)
