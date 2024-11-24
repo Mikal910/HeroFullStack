@@ -8,6 +8,4 @@
 1. run `node server.js`
 2. Navigate to `localhost:8080`
 
-## Credit
-
-Modified from Scotch.io's auth tutorial
+## An enhanced Superhero application allows users to log in, view a list of superheroes, favorite their favorites, and add new superheroes. Built with Node.js, Express, and JavaScript, this app provides an interactive way to manage superhero data.
