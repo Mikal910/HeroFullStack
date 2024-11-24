@@ -2,15 +2,6 @@ const axios=require('axios') ;
 const { result } = require('lodash');
 const heroes = require('../heroes.js');
 
-// async function getCharacters() {
-//   try{
-//     const response = await axios.get(heroes);
-//     return response;
-//   }catch (error){
-//     console.error(error);
-//   }
-// }
-
 module.exports = function(app, passport, db) {
  
 // normal routes ===============================================================
